@@ -15,7 +15,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing in ${APP_ENV}"
-            }
+            }   error 'Practice failure'
         }
     }
 }
